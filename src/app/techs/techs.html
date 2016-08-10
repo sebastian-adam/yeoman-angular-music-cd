@@ -3,6 +3,6 @@
     Albums in our inventory:
   </h2>
   <div class="techs">
-    <Tech *ngFor="let tech of techs" [tech]="tech"></Tech>
+    <Tech *ngFor="let tech of techs" [tech]="tech" (click)="albumClicked(tech)"></Tech>
   </div>
 </div>

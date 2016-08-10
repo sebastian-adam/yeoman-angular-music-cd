@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, EventEmitter} from '@angular/core';
 import {Http, HTTP_PROVIDERS} from '@angular/http';
 import {Observable} from 'rxjs/Observable';
 import 'rxjs/Rx';
@@ -15,6 +15,7 @@ export class Tech {
 
 @Component({
   selector: 'Techs',
+  outputs: ['onAlbumSelect'],
   template: require('./techs.html'),
   directives: [TechComponent],
   providers: [HTTP_PROVIDERS]
@@ -22,8 +23,11 @@ export class Tech {
 export class Techs {
   public techs: Tech[];
   public tech: Tech;
+  public onAlbumSelect: EventEmitter<any>;
+  public selectedAlbum: Tech;
 
   constructor(public http: Http) {
+    this.onAlbumSelect = new EventEmitter();
     this.getTechs().subscribe(result => this.techs = result);
   }
 
@@ -31,5 +35,10 @@ export class Techs {
     return this.http
       .get('app/techs/techs.json')
       .map(response => response.json());
+  }
+
+  albumClicked(album: Tech): void {
+    this.selectedAlbum = album;
+    this.onAlbumSelect.emit(album);
   }
 }

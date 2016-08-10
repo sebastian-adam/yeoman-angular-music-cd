@@ -1,58 +1,49 @@
 [
   {
-    "key": "gulp",
-    "title": "Gulp",
-    "logo": "http://fountainjs.io/assets/imgs/gulp.png",
-    "text1": "The streaming build system",
-    "text2": "Automate and enhance your workflow"
+    "key": "test",
+    "title": "Another Green World",
+    "artist": "Brian Eno",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/9/92/Another_Green_World.jpg",
+    "text1": "Brian Eno is like the coolest.",
+    "text2": "O. M. G."
   },
   {
-    "key": "angular2",
-    "title": "Angular 2",
-    "logo": "http://fountainjs.io/assets/imgs/angular2.png",
-    "text1": "One framework. Mobile and desktop.",
-    "text2": "In Angular you display data by defining components. Data in your component classes is automatically available to display in your templates or control how they render as in the example below."
+    "key": "low",
+    "title": "Low",
+    "artist": "David Bowie",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/9/93/Low_%28album%29.jpg",
+    "text1": "vinyl. info. stuff.",
+    "text2": "blurp we take from wikipedia"
   },
   {
-    "key": "browsersync",
-    "title": "Browsersync",
-    "logo": "http://fountainjs.io/assets/imgs/browsersync.png",
-    "text1": "Time-saving synchronised browser testing",
-    "text2": "It’s wicked-fast and totally free"
+    "key": "enterthewutang",
+    "title": "Enter the Wu-Tang (36 Chambers)",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/5/53/Wu-TangClanEntertheWu-Tangalbumcover.jpg",
+    "text1": "Bill Murray.",
+    "text2": "info about this album"
   },
   {
-    "key": "css",
-    "title": "CSS",
-    "logo": "http://fountainjs.io/assets/imgs/css.png",
-    "text1": "Cascading Style Sheets.",
-    "text2": "A simple mechanism for adding style (e.g., fonts, colors, spacing) to Web documents."
-  },
-  {
-    "key": "typescript",
-    "title": "TypeScript",
-    "logo": "http://fountainjs.io/assets/imgs/typescript.png",
-    "text1": "TypeScript lets you write JavaScript the way you really want to.",
-    "text2": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript."
-  },
-  {
-    "key": "tslint",
-    "title": "TSLint",
-    "logo": "http://fountainjs.io/assets/imgs/tslint.png",
-    "text1": "A Linter for the TypeScript language.",
-    "text2": "TSLint checks your TypeScript code for readability, maintainability, and functionality errors."
+    "key": "funhouse",
+    "title": "Fun House",
+    "arist": "The Stooges",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/6/6d/StoogesFunHouse.jpg",
+    "text1": "more information",
+    "text2": "so much more information to show to you all"
   },
   {
     "key": "karma",
-    "title": "Karma",
-    "logo": "http://fountainjs.io/assets/imgs/karma.png",
+    "title": "Show No Mercy",
+    "artist": "Slayer",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/8/83/Slayer_-_Show_No_Mercy.jpg",
     "text1": "Spectacular Test Runner for JavaScript",
     "text2": "Things should be simple. We believe in testing and so we want to make it as simple as possible"
   },
   {
     "key": "webpack",
-    "title": "Webpack",
-    "logo": "http://fountainjs.io/assets/imgs/webpack.png",
-    "text1": "Webpack is a module bundler",
+    "title": "Running With Scissors",
+    "artist": "'Weird Al' Yankovic",
+    "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b3/Running_with_Scissors_%28Weird_Al_Yankovic_album_-_cover_art%29.jpg/1200px-Running_with_Scissors_%28Weird_Al_Yankovic_album_-_cover_art%29.jpg",
+    "text1": "My, my, this here Anakin guy, may be Vader someday later but he's just a small fry",
     "text2": "Webpack, the production / unbiased / flexible / extensible / open source module bundler"
   }
 ]
